@@ -55,14 +55,14 @@ The model.py file contains the code for training and saving the convolution neur
 My model consists of 
 	
 
-	* At first we normalised the dataset using Lambda layers.
-	* Then we crop the images for only important pixel value within the region of interest.
-	* 3 Conv layers with (5,5) filter size with volume 24, 36, 48 respectively.
-	* All conv layers include relu as an output activation function.
-	* I have used a max pooling layer followed by a first conv layers.
-	* I have use 3 Dropout layers with drop probability 0.3 after each conv layers.
-	* After all Conv layers, I flatten all the output neuron
-	* Used 4 Dense layers with output units 100, 50, 10, 1 respectively
+* At first we normalised the dataset using Lambda layers.
+* Then we crop the images for only important pixel value within the region of interest.
+* 3 Conv layers with (5,5) filter size with volume 24, 36, 48 respectively.
+* All conv layers include relu as an output activation function.
+* I have used a max pooling layer followed by a first conv layers.
+* I have use 3 Dropout layers with drop probability 0.3 after each conv layers.
+* After all Conv layers, I flatten all the output neuron
+* Used 4 Dense layers with output units 100, 50, 10, 1 respectively
 
 (model.py lines 56-74) 
 
