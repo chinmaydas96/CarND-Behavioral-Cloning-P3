@@ -113,22 +113,18 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+![alt text](./new_data/IMG/center_2020_05_16_11_59_31_531.jpg)
 
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
+I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to steer angle with more data.
 
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
+These are images with Left and right Cameras :
 
-Then I repeated this process on track two in order to get more data points.
 
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
+![alt text](./new_data/IMG/left_2020_05_16_12_03_58_793.jpg)
+![alt text](./new_data/IMG/right_2020_05_16_12_04_01_649.jpg)
 
-![alt text][image6]
-![alt text][image7]
 
-Etc ....
+To augment the data sat, I also flipped images and angles thinking that this would increase our dataset and make training better.
 
 After the collection process, I had X number of data points. I then preprocessed this data by ...
 
