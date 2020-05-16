@@ -126,9 +126,26 @@ These are images with Left and right Cameras :
 
 To augment the data sat, I also flipped images and angles thinking that this would increase our dataset and make training better.
 
-After the collection process, I had X number of data points. I then preprocessed this data by ...
+After the collection process, I had 28080 number of data points. I then preprocess the data by normalizes and croping the region of interest image.
 
 
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
+I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 10 as evidenced by validation loss didn't decrease after that.
+
+I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+
+
+# Future Work :
+
+* Use both trackes with more lap.
+
+* Drive clockwise as well anti-clockwise.
+
+* Driving on center lane.
+
+* Use more complex network like resnet or resnext.
+
+
+
